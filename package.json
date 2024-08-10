@@ -1,0 +1,26 @@
+{
+  "name": "daily-notes",
+  "version": "1.0.0",
+  "description": "A simple notes writing website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Notes",
+    "To-do",
+    "Express",
+    "javascript"
+  ],
+  "author": "Abhishek Kumar Saini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
